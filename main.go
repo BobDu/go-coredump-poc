@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"math/rand"
+	"time"
 )
 
 func main() {
@@ -10,5 +11,6 @@ func main() {
 	for {
 		index := rand.Intn(11)
 		fmt.Println(arr[index])
+		time.Sleep(10 * time.Second)
 	}
 }
