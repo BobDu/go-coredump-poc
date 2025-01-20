@@ -1,0 +1,2 @@
+Golang core dump POC
+===
