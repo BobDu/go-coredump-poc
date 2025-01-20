@@ -11,6 +11,6 @@ func main() {
 	for {
 		index := rand.Intn(11)
 		fmt.Println(arr[index])
-		time.Sleep(10 * time.Second)
+		time.Sleep(2 * time.Second)
 	}
 }
